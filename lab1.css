@@ -5,6 +5,7 @@ body {
     font-style: normal;
     margin: 0;
     background-color: rgb(215, 215, 215);
+    height: 1000px;
 }
 
 .header {
@@ -40,7 +41,8 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
-    padding: 0 75px;
+    padding: 40px 75px;
+    height: 150px;
 }
 
 .project-card {
@@ -55,4 +57,52 @@ body {
 .project-card:hover {
     width: 270px;
     height: 120px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.field-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 300px;
+    align-items: center;
+}
+
+.field-container input {
+    margin: 5px;
+    width: 300px;
+    height: 20px;
+}
+
+.field-container textarea {
+    margin: 5px;
+    width: 300px;
+    height: 150px;
+
+}
+
+.field-container button {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 300px;
+}
+
+.footer {
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: black;
 }
