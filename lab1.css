@@ -42,21 +42,23 @@ body {
     grid-template-columns: auto auto auto;
     gap: 20px;
     padding: 40px 75px;
-    height: 150px;
+    justify-content: space-around;
+    align-items: start;
 }
 
 .project-card {
     width: 250px;
-    height: 100px;
+    height: fit-content;
     text-align: center;
     background-color: white;
     border-radius: 10px;
     padding: 20px;
+    transition: all 0.2s ease;
 }
 
 .project-card:hover {
-    width: 270px;
-    height: 120px;
+    padding: 30px;
+    margin: -10px;
 }
 
 .contact {
